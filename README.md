@@ -1,10 +1,21 @@
-# 🎯 Yoga Vignesh - Portfolio
+# 🎯 Yoga Vignesh - Award-Winning Portfolio
 
 > **A cinematic, performance-optimized portfolio showcasing the intersection of Mechanical Engineering & Full-Stack Development**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-66FCF1?style=for-the-badge&logo=vercel)](https://your-portfolio-url.vercel.app)
-[![Performance](https://img.shields.io/badge/Lighthouse-98%2F100-success?style=for-the-badge&logo=lighthouse)](https://developers.google.com/speed/pagespeed/insights/)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github)](https://github.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-66FCF1?style=for-the-badge&logo=vercel)](https://yogavignesh.me)
+[![Performance](https://img.shields.io/badge/Lighthouse-98%2F100-success?style=for-the-badge&logo=lighthouse)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fyogavignesh.me)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github)](https://github.com/yogavignesh-engineer/my-portfolio)
+
+**[🚀 LIVE SITE](https://yogavignesh.me)** | **[📹 Demo Video](#)** | **[⚡ Lighthouse Report](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fyogavignesh.me)**
+
+---
+
+### 🏆 **TL;DR for Reddit:**
+- ⚡ **98/100 Lighthouse** performance with 3D animations & particle systems
+- 🎮 **Three.js + React + Framer Motion** - 60fps butter-smooth
+- 🔧 **Mechanical Engineer → Full-Stack** (Smart Boundary: 99.2% accuracy, ₹43L savings)
+- 📦 **327KB gzipped** - manual chunk splitting, optimized like crazy
+- 🎨 **Custom cursor** with physics springs, 3D mechanical menu, ember particles
 
 ---
 
@@ -247,10 +258,10 @@ MIT License - feel free to use this as a template for your own portfolio!
 
 ## 🤝 **Connect**
 
-- **Portfolio:** [your-portfolio-url.com](https://your-portfolio-url.com)
+- **Portfolio:** [yogavignesh.me](https://yogavignesh.me)
 - **LinkedIn:** [linkedin.com/in/yogavignesh](https://linkedin.com/in/yogavignesh)
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
-- **Email:** your.email@example.com
+- **GitHub:** [github.com/yogavignesh-engineer](https://github.com/yogavignesh-engineer)
+- **Email:** Contact via website
 
 ---
 
