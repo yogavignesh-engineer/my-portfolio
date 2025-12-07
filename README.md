@@ -259,7 +259,7 @@ MIT License - feel free to use this as a template for your own portfolio!
 ## 🤝 **Connect**
 
 - **Portfolio:** [yogavignesh.me](https://yogavignesh.me)
-- **LinkedIn:** [linkedin.com/in/yogavignesh](https://linkedin.com/in/yogavignesh)
+- **LinkedIn:** [linkedin.com/in/yoga-vignesh-62733a377](https://www.linkedin.com/in/yoga-vignesh-62733a377/)
 - **GitHub:** [github.com/yogavignesh-engineer](https://github.com/yogavignesh-engineer)
 - **Email:** Contact via website
 

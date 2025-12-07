@@ -193,16 +193,32 @@ const ContactForm = () => {
     
     setIsSubmitting(true);
     
-    // Simulate API call (replace with actual email service)
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
-      setIsSuccess(true);
-      setIsSubmitting(false);
-      setFormData({ name: '', email: '', subject: '', message: '' });
+    try {
+      // Formspree endpoint - Get yours at https://formspree.io/
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
       
-      // Reset success message after 5 seconds
-      setTimeout(() => setIsSuccess(false), 5000);
-    }, 1500);
+      if (response.ok) {
+        console.log('Form submitted successfully:', formData);
+        setIsSuccess(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        
+        // Reset success message after 5 seconds
+        setTimeout(() => setIsSuccess(false), 5000);
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setErrors({ submit: 'Failed to send message. Please try again.' });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   
   return (
