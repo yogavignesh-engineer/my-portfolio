@@ -194,13 +194,19 @@ const ContactForm = () => {
     setIsSubmitting(true);
     
     try {
-      // Formspree endpoint - Get yours at https://formspree.io/
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      // Web3Forms - Get your access key at https://web3forms.com
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Get from https://web3forms.com
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message
+        })
       });
       
       if (response.ok) {
