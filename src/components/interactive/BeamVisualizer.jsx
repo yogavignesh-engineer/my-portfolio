@@ -255,6 +255,54 @@ const BeamVisualizer = React.memo(() => {
             </div>
           </motion.div>
 
+          {/* Engineering Equation - Euler-Bernoulli Beam Theory */}
+          <motion.div 
+            className="formula-block"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            style={{ 
+              marginTop: '1rem', 
+              padding: '1rem', 
+              background: 'rgba(0,0,0,0.3)', 
+              borderRadius: '8px',
+              border: '1px solid rgba(102, 252, 241, 0.1)'
+            }}
+          >
+            <div style={{ fontSize: '0.8rem', color: '#999', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>GOVERNING EQUATION</div>
+            <code style={{ 
+              fontFamily: 'JetBrains Mono, monospace', 
+              color: '#66FCF1', 
+              fontSize: '0.9rem',
+              display: 'block',
+              marginBottom: '0.5rem'
+            }}>
+              δ = (F × L³) / (48 × E × I)
+            </code>
+            <div style={{ 
+              fontSize: '0.7rem', 
+              color: '#666', 
+              marginTop: '0.5rem', 
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              gap: '0.5rem'
+            }}>
+              <span>F = Load ({force}N)</span>
+              <span>E = Modulus ({materials[material].E} GPa)</span>
+              <span style={{ gridColumn: '1 / -1', color: '#888', marginTop: '0.25rem' }}>L = Beam Length (1m assumed) | I = Moment of Inertia</span>
+            </div>
+            <div style={{ 
+              fontSize: '0.65rem', 
+              color: '#555', 
+              marginTop: '0.75rem',
+              fontStyle: 'italic',
+              borderTop: '1px solid rgba(102, 252, 241, 0.05)',
+              paddingTop: '0.5rem'
+            }}>
+              Note: Visualization uses normalized deflection index for clarity. Real-world calculations require specific beam geometry (I = bh³/12).
+            </div>
+          </motion.div>
+
           {/* Stats Grid */}
           <div className="stats-grid">
             <motion.div 
