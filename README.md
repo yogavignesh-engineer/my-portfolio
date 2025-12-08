@@ -1,27 +1,79 @@
-# 🎯 Yoga Vignesh - Award-Winning Portfolio
+# ⚙️ Digital Twin Engineering Suite
 
-> **A cinematic, performance-optimized portfolio showcasing the intersection of Mechanical Engineering & Full-Stack Development**
+> **A React-based kinematic analysis engine and visualization suite for mechanical systems.**
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-66FCF1?style=for-the-badge&logo=vercel)](https://yogavignesh.me)
 [![Performance](https://img.shields.io/badge/Lighthouse-98%2F100-success?style=for-the-badge&logo=lighthouse)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fyogavignesh.me)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github)](https://github.com/yogavignesh-engineer/my-portfolio)
 
-**[🚀 LIVE SITE](https://yogavignesh.me)** | **[📹 Demo Video](#)** | **[⚡ Lighthouse Report](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fyogavignesh.me)**
+**[🚀 LIVE SIMULATION ENGINE](https://yogavignesh.me)** | **[📐 Interactive FEA Tools](#engineering-tools)** | **[⚡ Performance Report](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fyogavignesh.me)**
 
 ---
 
-### 🏆 **TL;DR for Reddit:**
-- ⚡ **98/100 Lighthouse** performance with 3D animations & particle systems
-- 🎮 **Three.js + React + Framer Motion** - 60fps butter-smooth
-- 🔧 **Mechanical Engineer → Full-Stack** (Smart Boundary: 99.2% accuracy, ₹43L savings)
-- 📦 **327KB gzipped** - manual chunk splitting, optimized like crazy
-- 🎨 **Custom cursor** with physics springs, 3D mechanical menu, ember particles
+## 🎯 **What Is This?**
+
+This is **NOT** a traditional portfolio. This is an **Industry 4.0 engineering workbench** that runs entirely in the browser.
+
+**The Problem:** Engineers waste hours loading ANSYS or SolidWorks for quick parametric checks.
+
+**The Solution:** A web-based FEA beam analyzer and gear kinematic engine that runs at **60FPS** with real-time visualization using React + WebGL.
+
+### 🏆 **Built By a Mechanical Engineer Who Codes**
+- 🔧 **BeamVisualizer:** Real-time Euler-Bernoulli beam deflection analysis with material properties (Steel/Aluminum/Wood)
+- ⚙️ **GearCalculator:** Parametric gear train analysis with exportable engineering reports (PDF/CSV-ready)
+- 🤖 **Smart Boundary System:** 99.2% accuracy Computer Vision for manufacturing defect detection (₹43L+ cost savings)
+- 📊 **Engineering Export:** Professional documentation generation for audit trails and compliance
 
 ---
 
-## ✨ **What Makes This Special**
+## ⚡ **Why This Matters**
 
-This isn't just another portfolio—it's a **performance-engineered experience** that combines:
+### **For Engineering Managers:**
+This is what happens when a Mechanical Engineer learns React. You get tools that solve **real engineering problems**, not just "looks pretty" demos.
+
+### **For Recruiters:**
+- ✅ **Domain Expertise:** Understands FEA, kinematics, material science, manufacturing constraints
+- ✅ **Modern Stack:** React 18, Three.js, WebGL, Framer Motion (60fps animations)
+- ✅ **Product Thinking:** Built export features, documentation generators, not just UI
+- ✅ **Performance:** 98/100 Lighthouse with 3D graphics + physics simulations
+
+---
+
+## 🔧 **Engineering Tools**
+
+### **1. BeamVisualizer - FEA Deflection Analysis**
+**Real-World Use Case:** Quick structural checks before CAD modeling
+
+**Features:**
+- Euler-Bernoulli beam theory implementation: `δ = (F × L³) / (48 × E × I)`
+- Material database: Steel (200 GPa), Aluminum (69 GPa), Wood (11 GPa)
+- Real-time stress indicator with safety thresholds
+- GPU-accelerated visualization at 60fps
+
+**Why It's Better Than Excel:**
+- Interactive: Move sliders, see results instantly
+- Visual: Color-coded stress levels, 3D beam representation
+- Accurate: Shows governing equations, not black-box calculations
+
+### **2. GearCalculator - Kinematic Analysis Engine**
+**Real-World Use Case:** Gear train design validation for robotics/automotive
+
+**Features:**
+- Parametric gear ratio calculations with speed/torque analysis
+- Professional export: Generate engineering reports with calculations
+- Validation rules: Warns about high gear ratios, low speeds
+- Visual feedback: Animated gear meshes showing rotation direction
+
+**Why It's Better Than Hand Calculations:**
+- Documented: Auto-generates reports with timestamps and formulas
+- Smart: Provides engineering recommendations based on results
+- Shareable: Export logs for team review or client deliverables
+
+---
+
+## 🎨 **What Makes This Special**
+
+This isn't just another portfolio—it's a **full-stack engineering workbench** that combines:
 - 🎬 **Cinematic animations** with Framer Motion (60fps guaranteed)
 - 🎮 **3D mechanical interactions** using Three.js & React Three Fiber
 - ⚡ **327KB gzipped** main bundle (optimized chunk splitting)
