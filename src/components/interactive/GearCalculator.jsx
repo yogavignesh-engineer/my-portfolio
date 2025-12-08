@@ -150,15 +150,9 @@ ENGINEERING NOTES
 RECOMMENDATIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  ${parseFloat(results.gr) > 5 ? '⚠ High gear ratio detected. Consider:
-  • Multi-stage gear train for better efficiency
-  • Larger intermediate gears to reduce tooth wear
-  • Adequate lubrication for high torque loads' : '✓ Gear ratio within optimal range for single-stage transmission.'}
+  ${parseFloat(results.gr) > 5 ? '⚠ High gear ratio detected. Consider:\n  • Multi-stage gear train for better efficiency\n  • Larger intermediate gears to reduce tooth wear\n  • Adequate lubrication for high torque loads' : '✓ Gear ratio within optimal range for single-stage transmission.'}
 
-  ${parseFloat(results.n2) < 100 ? '⚠ Low output speed. Verify:
-  • Motor torque capacity
-  • Bearing selection for low-speed operation
-  • Gear tooth strength for high loads' : '✓ Output speed suitable for most applications.'}
+  ${parseFloat(results.n2) < 100 ? '⚠ Low output speed. Verify:\n  • Motor torque capacity\n  • Bearing selection for low-speed operation\n  • Gear tooth strength for high loads' : '✓ Output speed suitable for most applications.'}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DISCLAIMER
