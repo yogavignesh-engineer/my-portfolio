@@ -341,6 +341,34 @@ const BeamVisualizer = React.memo(() => {
               <div className="stat-label">Young's Modulus</div>
             </motion.div>
           </div>
+
+          {/* --- NEW ENGINEERING FORMULA BLOCK (PASTE THIS HERE) --- */}
+          <motion.div 
+            className="formula-block"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            style={{ 
+              marginTop: '20px', 
+              padding: '15px', 
+              background: 'rgba(0,0,0,0.3)', 
+              borderRadius: '8px', 
+              border: '1px solid rgba(147, 51, 234, 0.2)' 
+            }}
+          >
+            <div style={{ fontSize: '0.7rem', color: '#999', marginBottom: '8px', fontFamily: 'JetBrains Mono, monospace', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              Governing Equation (Euler-Bernoulli)
+            </div>
+            <code style={{ display: 'block', fontFamily: 'JetBrains Mono, monospace', color: '#66FCF1', fontSize: '0.9rem', marginBottom: '8px', background: 'rgba(0,0,0,0.5)', padding: '8px', borderRadius: '4px' }}>
+              δ = (F × L³) / (48 × E × I)
+            </code>
+            <div style={{ fontSize: '0.7rem', color: '#666', fontFamily: 'Inter, sans-serif', display: 'flex', justifyContent: 'space-between' }}>
+              <span>F = {force}N (Load)</span>
+              <span>E = {materials[material].E} GPa</span>
+            </div>
+          </motion.div>
+          {/* --- END OF NEW BLOCK --- */}
+
         </motion.div>
 
         {/* RIGHT CARD: VISUALIZATION */}
