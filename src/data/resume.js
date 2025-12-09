@@ -20,6 +20,19 @@ export const RESUME_DATA = {
     
     timeline: [
         { 
+            year: "Dec 2025", 
+            title: "Generative Design for Manufacturing Applications", 
+            detail: "Autodesk Certified · 12-hour intensive course", 
+            tag: "CERTIFICATION",
+            achievements: [
+                "Mastered topology optimization for lightweight structural design",
+                "Learned AI-driven generative design workflows for manufacturing constraints",
+                "Applied DfM (Design for Manufacturing) principles to computational design",
+                "Completed Dec 9, 2025 - Credential verified by Autodesk"
+            ],
+            skills: ["Generative Design", "Topology Optimization", "Manufacturing Constraints", "Computational Design", "AI-Driven Engineering"]
+        },
+        { 
             year: "2027 (Expected)", 
             title: "B.E. Mechanical Engineering (Pursuing)", 
             detail: "NPR College of Engineering & Tech · Currently Enrolled", 

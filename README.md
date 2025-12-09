@@ -19,10 +19,17 @@ This is **NOT** a traditional portfolio. This is an **Industry 4.0 engineering w
 **The Solution:** A web-based FEA beam analyzer and gear kinematic engine that runs at **60FPS** with real-time visualization using React + WebGL.
 
 ### 🏆 **Built By a Mechanical Engineer Who Codes**
-- 🔧 **BeamVisualizer:** Real-time Euler-Bernoulli beam deflection analysis with material properties (Steel/Aluminum/Wood)
-- ⚙️ **GearCalculator:** Parametric gear train analysis with exportable engineering reports (PDF/CSV-ready)
-- 🤖 **Smart Boundary System:** 99.2% accuracy Computer Vision for manufacturing defect detection (₹43L+ cost savings)
-- 📊 **Engineering Export:** Professional documentation generation for audit trails and compliance
+
+**🎓 Latest Certification:** Autodesk Generative Design for Manufacturing Applications (Dec 9, 2025)
+- Completed 12-hour intensive course on topology optimization and AI-driven design
+- Applied computational design principles to web-based engineering tools
+- Credential: Autodesk Certified in Generative Design
+
+**🔧 Engineering Tools:**
+- **BeamVisualizer:** Real-time Euler-Bernoulli beam deflection analysis with material properties (Steel/Aluminum/Wood)
+- **GearCalculator:** Parametric gear train analysis with exportable engineering reports (PDF/CSV-ready)
+- **Smart Boundary System:** 99.2% accuracy Computer Vision for manufacturing defect detection (₹43L+ cost savings)
+- **Engineering Export:** Professional documentation generation for audit trails and compliance
 
 ---
 
